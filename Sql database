@@ -1,0 +1,13 @@
+𝐔𝐍𝐈𝐎𝐍 𝐖𝐢𝐭𝐡 𝐖𝐇𝐄𝐑𝐄 
+
+SELECT City, Country FROM Customers
+
+WHERE Country='Germany'
+
+UNION
+
+SELECT City, Country FROM Suppliers
+
+WHERE Country='Germany'
+
+ORDER BY City;
